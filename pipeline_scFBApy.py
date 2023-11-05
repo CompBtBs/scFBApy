@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Jun 17 15:51:50 2023
 
 @author: bruno.galuzzi
 """
@@ -14,7 +13,7 @@ from utils_scFBApy import scFBApy,repairNeg,popModel
 model = cb.io.read_sbml_model("models/model.xml")
 #%% load single cell dataset
 adata=sc.read_h5ad("datasets/BC03LNdataset")
-#adata=adata[adata.obs.index!="BC03LN_Pooled",:]   #remove bulk element
+
 #%%
 adata,cont=repairNeg(adata,
               "BC03LN_Pooled",
