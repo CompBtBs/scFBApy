@@ -19,7 +19,7 @@ to MATLAB-based CBM tools.
 
 To run the codes you need to install:
 
-Scanpy
-Cobrapy
-MAGIC denoiser
+*Scanpy
+*Cobrapy
+*MAGIC denoiser
 
