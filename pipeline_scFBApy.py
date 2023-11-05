@@ -12,7 +12,6 @@ import scanpy as sc
 from utils_scFBApy import scFBApy,repairNeg,popModel
 #%% load cobra model
 model = cb.io.read_sbml_model("models/model.xml")
-#model=cb.io.read_sbml_model("../scFBA-master/HMRcore2.xml")
 #%% load single cell dataset
 adata=sc.read_h5ad("datasets/BC03LNdataset")
 #adata=adata[adata.obs.index!="BC03LN_Pooled",:]   #remove bulk element
